@@ -1,0 +1,95 @@
+/*
+
+    seletor{
+        propriedade:valor;
+    }
+
+*/
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #222831;  
+}
+
+div{
+    background-color: #eee; /*cor de fundo*/
+    width: 340px; /*largura*/
+    border-radius: 10px;
+
+    /*margin auto nas laterais faz com que a div seja centralizada*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+    /*Espaçamento interno*/
+    padding: 30px;
+    text-align: center;
+}
+
+
+img{
+    margin-bottom: 30px;
+    border: 5px #222831 solid;
+    border-radius: 50%;
+}
+
+h1{
+    color: #393E46; /*cor do texto*/
+    font-size: 32px;  /*tamanho do texto*/    
+    margin: 0;
+}
+
+
+h2{
+    color: #222831;
+    font-size: 20px;
+    margin: 0;
+}
+
+p{
+    color: gray;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+    list-style: none; /*remove o marcador da lista*/    
+}
+
+/*formatando os links que estão DENTRO da lista*/
+ul a{
+    text-decoration: none;
+    background-color: #393E46;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+ul a:hover{
+    background-color: #000000;
+}
+
+#link{
+    color: #222831;    
+}
+
+#link:hover{
+    font-style: italic;
+}
+/*DESIGN RESPONSIVO
+  Quando  interface  se adapta (BEM) a qualquer dispositivo
+*/
+/*se a tela for de até 500px*/
+@media screen and (max-width: 500px){
+
+    div{
+
+       width: 80%;
+
+    }
+    
+}
